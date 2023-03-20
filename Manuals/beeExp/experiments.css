@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    background-color: #FCF6F5FF;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* nav */
+nav{
+    background-color: maroon;
+    padding: 15px;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+}
+nav li{
+    margin:0 1em;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0.25em 0;
+}
+
+nav a:hover,nav a:focus{
+    color: antiquewhite;
+    border-bottom: 1px solid antiquewhite;
+}
+strong,h3,h4,h5,h6{
+    font-weight: 600;
+}
+header{
+    background: #990011FF;
+    padding: 50px;
+    color: white;
+}
+.container{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.container-m{
+    width: 90%;
+    max-width: 1080px;
+    margin: 20px auto;
+}
+.columns{
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+    align-items: flex-start;
+}
+.col{
+    width: 50%;
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center;
+    font: 1em;
+}
+.col img{
+    width: 50%;
+}
+.col-1{
+    width: 45%;
+}
+.col-2{
+    width: 45%;
+}
+
+
+/* Table */
+.table-bordered,th,td {
+    border: 1px solid black;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Resistor Example */
+.resis-exam{
+    width: 100%;
+}
+.resis-img{
+    display: flex;
+    justify-content: center;
+}
+.resis-img img{
+    text-align: center;
+    width: 20%;
+}
+
+.colu-1{
+    width: 30%;
+}
+.colu-2{
+    width: 30%;
+}
+.colu-3{
+    width: 30%;
+}
+.coli-1{
+    width: 30%;
+}
+.colp-1{
+    width: 20%;
+}
+.table-diodes{
+    border: 1px solid black;
+    width: 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+#table-led{
+    width: 80%;
+    max-width: 80%;
+    border:1px solid black;
+}
+.led-data {
+    margin: 20px 0;
+    width: 80%;
+    max-width: 80%;
+    border: 0;
+    border-style: none;
+}
+.led-data td{
+    text-align: left;
+    vertical-align: top;
+    border: 0;
+    padding: 10px;
+}
+.tbold{
+    font-weight: 600;
+}
+
+.foot{
+    margin: 0 auto;
+    background-color: #990011FF;
+    font-size: 20px;
+    padding: 50px;
+    color: white;
+}
+.footer{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+#quote{
+    text-decoration: italic;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.move{
+    transition-duration: 0.4s;
+    padding: 0.5em;
+    font-size: 1.2rem;
+    text-align: left;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 10px auto;
+}
+.move:hover {
+    background-color: #990011FF ;/* Green */
+    color: white;
+    
+}
